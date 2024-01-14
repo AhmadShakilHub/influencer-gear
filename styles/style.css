@@ -1,19 +1,93 @@
 /* Font family */
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
 /* common shared styles */
-*{
-    font-family: 'Poppins', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    
+body {
+  font-family: "Poppins", sans-serif;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+main {
+  max-width: 1600px;
 }
-.nav-anchor{
-    display: flex;
-    gap: 20px;
-    list-style: none;
+
+/* header section styles */
+
+header {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: bisque;
+}
+.nav-anchor {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+/* Banner section styles */
+.banner {
+  margin: 0 auto;
+}
+.banner-content-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.banner-text {
+  width: 50%;
+  padding-right: 120px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.banner-title {
+  color: #3a3a3a;
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 70px; /* 134.615% */
+}
+.banner-description {
+  margin-top: 20px;
+  color: #3a3a3a;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.banner-btn {
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 16px;
+  border-radius: 32px;
+  background-color: #e02c6d;
+  border: none;
+  cursor: pointer;
+}
+.banner-btn:hover {
+  color: rgb(21, 32, 236);
+}
+.banner-img {
+  padding-right: 35px;
+  padding-bottom: 55px;
+  background-image: url(../images/Circle\ design.svg);
+  background-repeat: no-repeat;
+}
+.banner-img img {
+  object-fit: cover;
+}
+.banner-icons {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
 }

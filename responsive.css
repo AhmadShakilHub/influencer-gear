@@ -1,0 +1,13 @@
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+    }
+    /* Navbar dropdown styles */
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+.dropdown:hover .dropdown-content{
+    color: black;
+}
+}
